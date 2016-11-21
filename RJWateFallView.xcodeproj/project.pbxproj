@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CDFAE0C1DE2D9DE0025F956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDFAE0B1DE2D9DE0025F956 /* main.m */; };
+		5CDFAE0F1DE2D9DE0025F956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDFAE0E1DE2D9DE0025F956 /* AppDelegate.m */; };
+		5CDFAE121DE2D9DE0025F956 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDFAE111DE2D9DE0025F956 /* ViewController.m */; };
+		5CDFAE151DE2D9DE0025F956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDFAE131DE2D9DE0025F956 /* Main.storyboard */; };
+		5CDFAE171DE2D9DE0025F956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDFAE161DE2D9DE0025F956 /* Assets.xcassets */; };
+		5CDFAE1A1DE2D9DE0025F956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDFAE181DE2D9DE0025F956 /* LaunchScreen.storyboard */; };
+		5CDFAE251DE2D9DF0025F956 /* RJWateFallViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDFAE241DE2D9DF0025F956 /* RJWateFallViewTests.m */; };
+		5CDFAE301DE2D9DF0025F956 /* RJWateFallViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDFAE2F1DE2D9DF0025F956 /* RJWateFallViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CDFAE211DE2D9DF0025F956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDFADFF1DE2D9DE0025F956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDFAE061DE2D9DE0025F956;
+			remoteInfo = RJWateFallView;
+		};
+		5CDFAE2C1DE2D9DF0025F956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDFADFF1DE2D9DE0025F956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDFAE061DE2D9DE0025F956;
+			remoteInfo = RJWateFallView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CDFAE071DE2D9DE0025F956 /* RJWateFallView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJWateFallView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDFAE0B1DE2D9DE0025F956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CDFAE0D1DE2D9DE0025F956 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CDFAE0E1DE2D9DE0025F956 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CDFAE101DE2D9DE0025F956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CDFAE111DE2D9DE0025F956 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CDFAE141DE2D9DE0025F956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CDFAE161DE2D9DE0025F956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CDFAE191DE2D9DE0025F956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CDFAE1B1DE2D9DE0025F956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDFAE201DE2D9DF0025F956 /* RJWateFallViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJWateFallViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDFAE241DE2D9DF0025F956 /* RJWateFallViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJWateFallViewTests.m; sourceTree = "<group>"; };
+		5CDFAE261DE2D9DF0025F956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDFAE2B1DE2D9DF0025F956 /* RJWateFallViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJWateFallViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDFAE2F1DE2D9DF0025F956 /* RJWateFallViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJWateFallViewUITests.m; sourceTree = "<group>"; };
+		5CDFAE311DE2D9DF0025F956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CDFAE041DE2D9DE0025F956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDFAE1D1DE2D9DF0025F956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDFAE281DE2D9DF0025F956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CDFADFE1DE2D9DE0025F956 = {
+			isa = PBXGroup;
+			children = (
+				5CDFAE091DE2D9DE0025F956 /* RJWateFallView */,
+				5CDFAE231DE2D9DF0025F956 /* RJWateFallViewTests */,
+				5CDFAE2E1DE2D9DF0025F956 /* RJWateFallViewUITests */,
+				5CDFAE081DE2D9DE0025F956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CDFAE081DE2D9DE0025F956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CDFAE071DE2D9DE0025F956 /* RJWateFallView.app */,
+				5CDFAE201DE2D9DF0025F956 /* RJWateFallViewTests.xctest */,
+				5CDFAE2B1DE2D9DF0025F956 /* RJWateFallViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CDFAE091DE2D9DE0025F956 /* RJWateFallView */ = {
+			isa = PBXGroup;
+			children = (
+				5CDFAE0D1DE2D9DE0025F956 /* AppDelegate.h */,
+				5CDFAE0E1DE2D9DE0025F956 /* AppDelegate.m */,
+				5CDFAE101DE2D9DE0025F956 /* ViewController.h */,
+				5CDFAE111DE2D9DE0025F956 /* ViewController.m */,
+				5CDFAE131DE2D9DE0025F956 /* Main.storyboard */,
+				5CDFAE161DE2D9DE0025F956 /* Assets.xcassets */,
+				5CDFAE181DE2D9DE0025F956 /* LaunchScreen.storyboard */,
+				5CDFAE1B1DE2D9DE0025F956 /* Info.plist */,
+				5CDFAE0A1DE2D9DE0025F956 /* Supporting Files */,
+			);
+			path = RJWateFallView;
+			sourceTree = "<group>";
+		};
+		5CDFAE0A1DE2D9DE0025F956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CDFAE0B1DE2D9DE0025F956 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CDFAE231DE2D9DF0025F956 /* RJWateFallViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CDFAE241DE2D9DF0025F956 /* RJWateFallViewTests.m */,
+				5CDFAE261DE2D9DF0025F956 /* Info.plist */,
+			);
+			path = RJWateFallViewTests;
+			sourceTree = "<group>";
+		};
+		5CDFAE2E1DE2D9DF0025F956 /* RJWateFallViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CDFAE2F1DE2D9DF0025F956 /* RJWateFallViewUITests.m */,
+				5CDFAE311DE2D9DF0025F956 /* Info.plist */,
+			);
+			path = RJWateFallViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CDFAE061DE2D9DE0025F956 /* RJWateFallView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDFAE341DE2D9DF0025F956 /* Build configuration list for PBXNativeTarget "RJWateFallView" */;
+			buildPhases = (
+				5CDFAE031DE2D9DE0025F956 /* Sources */,
+				5CDFAE041DE2D9DE0025F956 /* Frameworks */,
+				5CDFAE051DE2D9DE0025F956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJWateFallView;
+			productName = RJWateFallView;
+			productReference = 5CDFAE071DE2D9DE0025F956 /* RJWateFallView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CDFAE1F1DE2D9DF0025F956 /* RJWateFallViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDFAE371DE2D9DF0025F956 /* Build configuration list for PBXNativeTarget "RJWateFallViewTests" */;
+			buildPhases = (
+				5CDFAE1C1DE2D9DF0025F956 /* Sources */,
+				5CDFAE1D1DE2D9DF0025F956 /* Frameworks */,
+				5CDFAE1E1DE2D9DF0025F956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDFAE221DE2D9DF0025F956 /* PBXTargetDependency */,
+			);
+			name = RJWateFallViewTests;
+			productName = RJWateFallViewTests;
+			productReference = 5CDFAE201DE2D9DF0025F956 /* RJWateFallViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CDFAE2A1DE2D9DF0025F956 /* RJWateFallViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDFAE3A1DE2D9DF0025F956 /* Build configuration list for PBXNativeTarget "RJWateFallViewUITests" */;
+			buildPhases = (
+				5CDFAE271DE2D9DF0025F956 /* Sources */,
+				5CDFAE281DE2D9DF0025F956 /* Frameworks */,
+				5CDFAE291DE2D9DF0025F956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDFAE2D1DE2D9DF0025F956 /* PBXTargetDependency */,
+			);
+			name = RJWateFallViewUITests;
+			productName = RJWateFallViewUITests;
+			productReference = 5CDFAE2B1DE2D9DF0025F956 /* RJWateFallViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CDFADFF1DE2D9DE0025F956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = RockyFung;
+				TargetAttributes = {
+					5CDFAE061DE2D9DE0025F956 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VV5P9XUYAQ;
+						ProvisioningStyle = Automatic;
+					};
+					5CDFAE1F1DE2D9DF0025F956 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VV5P9XUYAQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CDFAE061DE2D9DE0025F956;
+					};
+					5CDFAE2A1DE2D9DF0025F956 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VV5P9XUYAQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CDFAE061DE2D9DE0025F956;
+					};
+				};
+			};
+			buildConfigurationList = 5CDFAE021DE2D9DE0025F956 /* Build configuration list for PBXProject "RJWateFallView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CDFADFE1DE2D9DE0025F956;
+			productRefGroup = 5CDFAE081DE2D9DE0025F956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDFAE061DE2D9DE0025F956 /* RJWateFallView */,
+				5CDFAE1F1DE2D9DF0025F956 /* RJWateFallViewTests */,
+				5CDFAE2A1DE2D9DF0025F956 /* RJWateFallViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDFAE051DE2D9DE0025F956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDFAE1A1DE2D9DE0025F956 /* LaunchScreen.storyboard in Resources */,
+				5CDFAE171DE2D9DE0025F956 /* Assets.xcassets in Resources */,
+				5CDFAE151DE2D9DE0025F956 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDFAE1E1DE2D9DF0025F956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDFAE291DE2D9DF0025F956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDFAE031DE2D9DE0025F956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDFAE121DE2D9DE0025F956 /* ViewController.m in Sources */,
+				5CDFAE0F1DE2D9DE0025F956 /* AppDelegate.m in Sources */,
+				5CDFAE0C1DE2D9DE0025F956 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDFAE1C1DE2D9DF0025F956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDFAE251DE2D9DF0025F956 /* RJWateFallViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDFAE271DE2D9DF0025F956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDFAE301DE2D9DF0025F956 /* RJWateFallViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CDFAE221DE2D9DF0025F956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDFAE061DE2D9DE0025F956 /* RJWateFallView */;
+			targetProxy = 5CDFAE211DE2D9DF0025F956 /* PBXContainerItemProxy */;
+		};
+		5CDFAE2D1DE2D9DF0025F956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDFAE061DE2D9DE0025F956 /* RJWateFallView */;
+			targetProxy = 5CDFAE2C1DE2D9DF0025F956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CDFAE131DE2D9DE0025F956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDFAE141DE2D9DE0025F956 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CDFAE181DE2D9DE0025F956 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDFAE191DE2D9DE0025F956 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CDFAE321DE2D9DF0025F956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CDFAE331DE2D9DF0025F956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CDFAE351DE2D9DF0025F956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VV5P9XUYAQ;
+				INFOPLIST_FILE = RJWateFallView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.RJWateFallView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CDFAE361DE2D9DF0025F956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VV5P9XUYAQ;
+				INFOPLIST_FILE = RJWateFallView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.RJWateFallView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CDFAE381DE2D9DF0025F956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VV5P9XUYAQ;
+				INFOPLIST_FILE = RJWateFallViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.RJWateFallViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJWateFallView.app/RJWateFallView";
+			};
+			name = Debug;
+		};
+		5CDFAE391DE2D9DF0025F956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VV5P9XUYAQ;
+				INFOPLIST_FILE = RJWateFallViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.RJWateFallViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJWateFallView.app/RJWateFallView";
+			};
+			name = Release;
+		};
+		5CDFAE3B1DE2D9DF0025F956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VV5P9XUYAQ;
+				INFOPLIST_FILE = RJWateFallViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.RJWateFallViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RJWateFallView;
+			};
+			name = Debug;
+		};
+		5CDFAE3C1DE2D9DF0025F956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VV5P9XUYAQ;
+				INFOPLIST_FILE = RJWateFallViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.RJWateFallViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RJWateFallView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CDFAE021DE2D9DE0025F956 /* Build configuration list for PBXProject "RJWateFallView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDFAE321DE2D9DF0025F956 /* Debug */,
+				5CDFAE331DE2D9DF0025F956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDFAE341DE2D9DF0025F956 /* Build configuration list for PBXNativeTarget "RJWateFallView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDFAE351DE2D9DF0025F956 /* Debug */,
+				5CDFAE361DE2D9DF0025F956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CDFAE371DE2D9DF0025F956 /* Build configuration list for PBXNativeTarget "RJWateFallViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDFAE381DE2D9DF0025F956 /* Debug */,
+				5CDFAE391DE2D9DF0025F956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CDFAE3A1DE2D9DF0025F956 /* Build configuration list for PBXNativeTarget "RJWateFallViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDFAE3B1DE2D9DF0025F956 /* Debug */,
+				5CDFAE3C1DE2D9DF0025F956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CDFADFF1DE2D9DE0025F956 /* Project object */;
+}
